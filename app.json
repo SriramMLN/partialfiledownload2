@@ -23,6 +23,12 @@
 		"url": "heroku/java"
 	}],
 	"environments": {
+		"development": {
+			"env": {
+				"KEY_ONE": "dev_Prop",
+				"KEY_TWO": "dev_PropAnotherkey"
+			}
+		},
 		"staging": {
 			"env": {
 				"KEY_ONE": "test-key",
