@@ -27,7 +27,7 @@
 		},
 		"test": {
 			"env": {
-				"KEY_ONE": "test-key",
+				"KEY_ONE": "app_test.properties",
 				"KEY_TWO": "test-Anotherkey"
 			}
 		}
