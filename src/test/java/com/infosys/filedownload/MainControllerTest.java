@@ -17,6 +17,7 @@ public class MainControllerTest {
 	@Test
 	public void getKeyOne() {
 		String expected = "app_test.properties";
+		System.out.println("test->"+keyOne);
 		assertEquals("----Message----",expected, keyOne);
 	}
 }
