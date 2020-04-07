@@ -1,5 +1,5 @@
 {
-	"name": "myjavahrkuappx1y2z3",
+	"name": "Java tomcat",
 	"description": "App in Java",
 	"keywords": [
 		"HTML5",
@@ -20,6 +20,12 @@
 			}
 		},
 		"staging": {
+			"env": {
+				"KEY_ONE": "staging-key",
+				"KEY_TWO": "staging-Anotherkey"
+			}
+		},
+		"test": {
 			"env": {
 				"KEY_ONE": "test-key",
 				"KEY_TWO": "test-Anotherkey"
