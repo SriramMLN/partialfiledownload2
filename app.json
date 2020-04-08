@@ -6,8 +6,7 @@
 		"Java"
 	],
 	"buildpack_provided_description": "Java",
-	"web_url": "https://myjavahrkuappx1y2z3.herokuapp.com/",
-	"repository": "https://github.com/SriramMLN/partialfiledownload",
+	"repository": "https://github.com/SriramMLN/partialfiledownload2",
 	"success_url": "/FileDownload_chunk_Blob.html",
 	"buildpacks": [{
 		"url": "heroku/java"
@@ -26,8 +25,12 @@
 			}
 		},
 		"test": {
+			"scripts":{
+				 "test-setup": "mvn clean test-compile",
+				 "test": "mvn test"
+				},
 			"env": {
-				"KEY_ONE": "app_test.properties",
+				"KEY_ONE": "app_test.propertiesV5",
 				"KEY_TWO": "test-Anotherkey"
 			}
 		}
